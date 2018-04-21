@@ -1,4 +1,5 @@
 /*    #a93447   #f0b14a   #45995b*/
+
 .heading-font {
     font-family: Catamaran, Helvetica, Arial, sans-serif;
     font-weight: 200;
@@ -6,7 +7,9 @@
 }
 
 .body-font {
-    font-family: Muli, Helvetica, Arial, sans-serif
+    	font-family: 'Bad Script', cursive;
+/*    font-family: 'Caveat', cursive;*/
+/*    font-family: Muli, Helvetica, Arial, sans-serif*/
 }
 
 .alt-font {
@@ -21,9 +24,11 @@ body, html {
 }
 
 body {
-    font-family: Muli, Helvetica, Arial, sans-serif;
+    	font-family: 'Bad Script', cursive;
+/*    font-family: 'Caveat', cursive;*/
+/*    font-family: Muli, Helvetica, Arial, sans-serif;*/
     webkit-tap-highlight-color: #222;
-    color: #999;
+    color: #353535;
 }
 
 .navbar-default, .navbar-default .navbar-header .navbar-brand, h1, h2, h3, h4, h5, h6 {
@@ -82,9 +87,11 @@ p {
 }
 
 .btn, .navbar-default .nav > li > a {
-    font-family: Lato, Helvetica, Arial, sans-serif;
+/*    font-family: 'Bad Script', cursive;*/
+        font-family: 'Caveat', cursive;
+/*    font-family: Lato, Helvetica, Arial, sans-serif;*/
     text-transform: uppercase;
-    letter-spacing: 2px
+    letter-spacing: 1px
 }
 
 .navbar-default .navbar-header .navbar-brand:focus, .navbar-default .navbar-header .navbar-brand:hover {
@@ -98,7 +105,13 @@ p {
 }
 
 .navbar-default .nav > li > a {
-    font-size: 11px
+    font-size: 16px
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar-default .nav > li > a {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
 }
 
 .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
@@ -424,7 +437,9 @@ section.couponsection h2 {
 }
 
 section .title {
-    font-family: Marmelad;
+    font-family: 'Bad Script', cursive;
+    /*    font-family: 'Caveat', cursive;*/
+  /*  font-family: Marmelad;*/
 }
 
 .coupon {
@@ -489,6 +504,21 @@ section#photo{
 }*/
 .owl-carousel img{
     cursor: pointer !important;
+}
+
+.owl-animation{
+    margin-top: 30px;
+}
+.owl-animation .owl-stage{
+/*    -webkit-animation-duration: 3s !important;
+    animation-duration: 3s !important;*/
+/*    -webkit-transition: 0.7s !important;
+    -moz-transition: 0.7s !important;
+    -o-transition: 0.7s !important;
+    transition: 0.7s !important;*/
+}
+.owl-animation .owl-item {
+    margin-right: 20px !important;
 }
 
 
