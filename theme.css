@@ -506,6 +506,21 @@ section#photo{
     cursor: pointer !important;
 }
 
+.owl-animation{
+    margin-top: 30px;
+}
+.owl-animation .owl-stage{
+/*    -webkit-animation-duration: 3s !important;
+    animation-duration: 3s !important;*/
+/*    -webkit-transition: 0.7s !important;
+    -moz-transition: 0.7s !important;
+    -o-transition: 0.7s !important;
+    transition: 0.7s !important;*/
+}
+.owl-animation .owl-item {
+    margin-right: 20px !important;
+}
+
 
 section#contact {
     position: relative;
