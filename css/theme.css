@@ -188,6 +188,7 @@ p {
 }
 
 .audioembed {
+    visibility: hidden;
     position: fixed;
     bottom: -6px;
     right: 0;
@@ -518,11 +519,12 @@ section#photo{
     transition: 0.7s !important;*/
 }
 .owl-animation .owl-item {
-    margin-right: 20px !important;
+    margin-right: 5px !important;
 }
 
 
 section#contact {
+    min-height: 50vw;
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
