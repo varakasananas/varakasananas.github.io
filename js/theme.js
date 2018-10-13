@@ -67,7 +67,7 @@ jQuery(document).ready(function () {
         });*/
     jQuery('#animated-thumbnials').lightGallery({
         selector: '.item',
-        thumbnail: true,
+        thumbnail: false,
         animateThumb: false,
         showThumbByDefault: false,
         download: false
@@ -110,7 +110,7 @@ jQuery(document).ready(function () {
         });*/
     jQuery('#animated-thumbnials2').lightGallery({
         selector: '.item',
-        thumbnail: true,
+        thumbnail: false,
         animateThumb: false,
         showThumbByDefault: false,
         download: false
