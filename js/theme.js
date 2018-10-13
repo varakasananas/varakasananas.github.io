@@ -18,7 +18,7 @@
 window.onload = function () {
     function setLowVolume() {
         let myAudio = document.getElementById("audio1");
-        myAudio.src = src="audio.mp3";
+        myAudio.src = src = "audio.mp3";
         myAudio.volume = 0.3; //Changed this to 0.5 or 50% volume since the function is called Set Half Volume ;)
     };
 
@@ -32,13 +32,12 @@ window.onload = function () {
 };
 
 
-
-
 jQuery(document).ready(function () {
     let owl = $('.owl-carousel');
     let owl2 = $('.owl-animation');
     owl.owlCarousel({
         lazyLoad: true,
+        lazyLoadEager: 1,
         loop: true,
         margin: 5,
         autoplay: true,
@@ -79,6 +78,7 @@ jQuery(document).ready(function () {
 
     owl2.owlCarousel({
         lazyLoad: true,
+        lazyLoadEager: 1,
         loop: true,
         autoplay: true,
         autoplayTimeout: 9000,
