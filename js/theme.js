@@ -1,5 +1,7 @@
 /*!
  * */
+
+
 !function (t) {
     "use strict";
     t("a.page-scroll").bind("click", function (a) {
@@ -14,22 +16,27 @@
 }(jQuery);
 
 window.onload = function () {
-    /* preloader*/
+    function setLowVolume() {
+        let myAudio = document.getElementById("audio1");
+        myAudio.src = src="audio.mp3";
+        myAudio.volume = 0.3; //Changed this to 0.5 or 50% volume since the function is called Set Half Volume ;)
+    };
+
+    /* preloader and audio*/
     setTimeout(function () {
         /*document.getElementById('page-preloader').classList.add('loaded');*/
         $("#loader").fadeOut();
+        setLowVolume();
 
     }, 1500)
 };
 
-function setLowVolume() {
-    let myAudio = document.getElementById("audio1");
-    myAudio.volume = 0.3; //Changed this to 0.5 or 50% volume since the function is called Set Half Volume ;)
-};
 
 
-$(document).ready(function () {
-    var owl = $('.owl-carousel');
+
+jQuery(document).ready(function () {
+    let owl = $('.owl-carousel');
+    let owl2 = $('.owl-animation');
     owl.owlCarousel({
         lazyLoad: true,
         loop: true,
@@ -59,7 +66,7 @@ $(document).ready(function () {
             }
             e.preventDefault();
         });*/
-    $('#animated-thumbnials').lightGallery({
+    jQuery('#animated-thumbnials').lightGallery({
         selector: '.item',
         thumbnail: true,
         animateThumb: false,
@@ -69,11 +76,10 @@ $(document).ready(function () {
     /*    lightGallery(document.getElementById('animated-thumbnials'), {selector: '.item'});*/
 
     /*2 owl*/
-    var owl2 = $('.owl-animation');
+
     owl2.owlCarousel({
         lazyLoad: true,
         loop: true,
-        margin: 0,
         autoplay: true,
         autoplayTimeout: 5000,
         slideSpeed: 3000,
@@ -102,12 +108,12 @@ $(document).ready(function () {
             }
             e.preventDefault();
         });*/
-    $('#animated-thumbnials2').lightGallery({
+    jQuery('#animated-thumbnials2').lightGallery({
         selector: '.item',
         thumbnail: true,
         animateThumb: false,
         showThumbByDefault: false,
         download: false
     });
-    setLowVolume();
+
 });
