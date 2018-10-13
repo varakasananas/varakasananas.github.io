@@ -1,76 +1,386 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>The Best Christmas Landing Page EVER</title>
-  <meta name="description" content="It's the Best Christmas Landing Page EVER, not really much more to say.">
-  <meta name="author" content="George Phillips, http://cloudcannon.com">
+    <!-- =========================
+  FAV AND TOUCH ICONS
+============================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<!--    <link rel="manifest" href="manifest.json">-->
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#4ad3fa">
+    <meta name="apple-mobile-web-app-title" content="#ffffff">
+    <meta name="application-name" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    Шрифт Great Vibes-->
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="+375293481007 Развлечение анимация игры клоуны театр варакас ананас">
+    <meta name="author" content="Anton Glebov">
+    <title>Детская анимация праздников</title>
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/present.css">
+<!--    Preloader-->
+    <link rel="stylesheet" href="css/style.preloader.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Varela:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Great+Vibes|Marmelad" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+            integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+            crossorigin="anonymous"></script>
+    <!--    OWL carousel-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link type="text/css" rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.9/css/lightgallery.css"/>
+
+    <!-- Theme CSS -->
+    <link href="css/theme.css" rel="stylesheet">
+
 </head>
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="twelve column">
-      	<!-- Probably want to change Cloud Cannon to your company -->
-        <h1 class="editable"><small><a href="http://cloudcannon.com" target="top">CloudCannon</a> wishes you a</small> Merry Christmas</h1>
 
-        <section class="cube-wrapper">
-          <div class="cube">
-            <figure class="front"></figure>
-            <figure class="back"></figure>
-            <figure class="right"></figure>
-            <figure class="left"></figure>
-            <figure class="top">
-              <div class="lower lower-left"></div>
-              <div class="lower lower-right"></div>
-              <div class="upper upper-left"></div>
-              <div class="upper upper-right"></div>
-            </figure>
-            <figure class="bottom"></figure>
-            <figure class="shadow"></figure>
-            <figure class="present">
-              <div class="coupon">
-                <span class="coupon-back">
-                  COUPON
-                </span>
-                <span class="coupon-front">
-                  ONE FREE<br>MONTH
-                </span>
-              </div>
-            </figure>
-          </div>
-          <p>(Click me to open)
-        </p></section>
-        <div class="open-message">
-          <h2 class="editable">Huzzah</h2>
-          <p class="editable">What a thoughtful gift. You can use it straight away using the coupon <code>MerryChristmas</code>.</p>
-          <a class="button editable" href="https://app.cloudcannon.com/">Login</a>
-          <a class="button button-primary editable" href="https://app.cloudcannon.com/users/sign_up">Create a Free Account</a>
-        </div>  
+<body id="page-top">
 
-   	
-  </div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-  <script src="js/interface.js"></script>
-</div></div></body>
+<div class='loader' id="loader">
+    <div class='loader_overlay'></div>
+    <div class='loader_cogs'>
+        <div class='loader_cogs__top'>
+            <div class='top_part'></div>
+            <div class='top_part'></div>
+            <div class='top_part'></div>
+            <div class='top_hole'></div>
+        </div>
+        <div class='loader_cogs__left'>
+            <div class='left_part'></div>
+            <div class='left_part'></div>
+            <div class='left_part'></div>
+            <div class='left_hole'></div>
+        </div>
+        <div class='loader_cogs__bottom'>
+            <div class='bottom_part'></div>
+            <div class='bottom_part'></div>
+            <div class='bottom_part'></div>
+            <div class='bottom_hole'></div>
+        </div>
+        <p>Загрузка...</p>
+    </div>
+</div>
+
+
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top"><img class="iconlogo" src="img/iconlogo.png"
+                                                                      width="50">Театр Варакаса Ананаса</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="#coupon">Бонус</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#faq">Вопросы-Ответы</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#photo">Фото</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Контакты</a>
+                </li>
+                <li>
+                    <a href="tel:+375293481007"
+                       class="menuhighlight"><i class="fas fa-mobile-alt"></i> +375293481007</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="device-container">
+                    <img class="img-responsive" src="img/ananas2.png">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="header-content">
+                    <div class="header-content-inner">
+                        <h1>Театр Варакаса Ананаса</h1>
+                        <h4>Подарите улыбку каждому ребёнку!</h4>
+                        <br/>
+                        <div class="social">
+                            <a target="_blank" href="https://www.facebook.com/anecka.besan1"><i
+                                    class="fab fa-facebook-square"></i></a>
+                            <a target="_blank" href="https://vk.com/id200743002"><i class="fab fa-vk"></i></a>
+                            <a href="viber://chat?number=375293481007"><i class="fab fa-viber"></i></a>
+                            <!--                            <a href="#"><i class="fab fa-youtube"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="audioembed">
+        <audio controls="true" autoplay="true" src="audio.mp3" id="audio1">
+            <source src="audio.ogg" type="audio/ogg">
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+</header>
+
+<section id="coupon" class="couponsection bg-primary text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h2 class="title section-heading">Специальное предложение</h2>
+                <p>Постаянным клиентам скидка</p>
+                <div class="coupon">
+                    <img src="img/gift.png">
+                    <h3>10% скидка!</h3>
+                    <h4>Код: <span style="border-bottom:1px dashed">TEATP</span></h4>
+                    <br/>
+                    <p><i>Используйте этот код купона при оформлении заказа, чтобы получить<br/>
+                        <u>скидку</u>!</i></p>
+                    <p><a href="https://www.facebook.com/anecka.besan1" class="btn btn-buynow"><i
+                            class="fa fa-shopping-cart"></i>Заказать</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-heading">
+                    <h2 class="title">Вопросы-Ответы</h2>
+                    <p class="text-muted">Если ешё есть вопросы, свяжитесь с нами! <br><span style="font-family: 'Caveat', cursive; font-size: 27px">+375293481007</span></p>
+                    <img src="img/sep.png" width="120">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Кто такой аниматор?</h3>
+                    <p> В нашем случае аниматор - это ведущий детских праздников. Как его часто называют "Клоун". Как
+                        правило работает в образе и костюме какого-либо сказочного персонажа. Ведет дни рождения,
+                        выпускные в детском саду или начальной школе, дни именинника, разнообразные детские праздники.
+                        Может выполнять второстепенную роль, если есть основной ведущий. На празднике может быть
+                        задействованы от одного до нескольких аниматоров. Аниматор человек, создающий атмосферу
+                        праздника и хорошего настроения!</p>
+
+                    <h3>Какая программа у детского праздника?</h3>
+                    <p> Существует стандартная программа детского праздника. Аниматоры, приняв нужные образы, начинают
+                        свой праздник под наше музыкальное сопровождение со знакомства и приветствия. Детям необходимо
+                        минимальное время для адаптации, малышам его потребуется чуть больше. Мы не забываем про
+                        танцевальные конкурсы, потому что в танце каждый ребенок может проявить свою индивидуальность.
+                        Помимо веселых, необычных и увлекательных конкурсов с многочисленным реквизитом, аниматоры на
+                        детском празднике показывают детям фокусы, в которых они сами могут принять участие и
+                        попробовать разгадать их секрет. Конечно же, мы не забываем про традиционную песню "Каравай".
+                        Помимо раздачи уже заготовленных заранее подарков, наши аниматоры дарят всем детям фигурки из
+                        воздушных шариков.</p>
+
+                    <h3>Сколько по времени длится детский праздник?</h3>
+                    <p> Стандартный праздник длится один час. Это не значит, что 1 час и ни минутой больше. Ни в коем
+                        случае! По Вашему усмотрению и по настроению детей, праздник может идти и 2, и 3 и более часов.
+                        Для самых маленьких достаточно будет стандартной одночасовой программы, т.к. малыши быстро
+                        устают. Для детей постарше праздник соответственно может быть дольше, особенно если он проходит
+                        на свежем воздухе или по принципу "Квеста".</p>
+
+
+                </div>
+                <div class="col-md-6">
+                    <h3>Каких персонажей пригласить на детский праздник?</h3>
+                    <p> Частый вопрос: сколько аниматоров позвать на детский праздник? Справится ли один? Конечно,
+                        справится. Но интереснее проходит праздник, когда аниматоров двое и больше по причине того, что
+                        сюжетная линия героев больше просматривается и к тому же можно устроить небольшие соревнования.
+                        В любом случае, выбирать только Вам.</p>
+
+                    <h3>Что такое творческая мастерская?</h3>
+                    <p> Наша творческая мастерская полна интересных и увлекательных занятий для детей. Для девчонок
+                        интересен будет мастер-класс по декорированию сумок. Только представьте, Ваш ребенок сможет сам
+                        сделать себе сумку и забрать её с собой в качестве сувенира с праздника. Не будем забывать и про
+                        мальчишек. Им будет интересно (так же, как и девчонкам), создание оригами из бумаги, а также
+                        фигурок из гипса. С детства необходимо развивать творческую жтлку у детишек. Мы стараемся
+                        поспособствовать этому самую малость!</p>
+
+                    <h3>Где лучше всего провести праздник?</h3>
+                    <p> Прежде чем заказать детский праздник, необходимо позаботиться в каком месте это будет проходить.
+                        Это может быть организовано дома, в кафе, даже на открытом воздухе. Самое важно, что необходимо
+                        при этом учитывать - это наличие свободного места, чтобы дети вместе с аниматорами смогли
+                        повеселиться в полной мере. Соответственно, чем больше количество детей на празднике, тем больше
+                        должно быть места. Не стоит забывать и про наличие розетки или генератора в выбранном месте.
+                        Иначе весь праздник пройдет в тишине, что тоже безусловно может сказаться на атмосфере
+                        мероприятия.
+                        Выбирайте такое место, где будет комфортно Вам и Вашим детям, где можно будет с легкостью
+                        немного пошуметь!</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="photo">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-heading">
+                    <h2 class="title" style="margin-bottom:30px;color:#fff;">Фото</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <div class="owl-carousel owl-theme" id="animated-thumbnials">
+                    <div class="item" data-src="img/owl1.jpg"><img src="img/owl1.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl2.jpg"><img src="img/owl2.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl3.jpg"><img src="img/owl3.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl4.jpg"><img src="img/owl4.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl5.jpg"><img src="img/owl5.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl6.jpg"><img src="img/owl6.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl7.jpg"><img src="img/owl7.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl8.jpg"><img src="img/owl8.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl9.jpg"><img src="img/owl9.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl10.jpg"><img src="img/owl10.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl11.jpg"><img src="img/owl11.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl12.jpg"><img src="img/owl12.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl13.jpg"><img src="img/owl13.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl14.jpg"><img src="img/owl14.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl15.jpg"><img src="img/owl15.jpg" alt=""></div>
+                    <div class="item" data-src="img/owl16.jpg"><img src="img/owl16.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <div class="owl-carousel owl-theme owl-animation" id="animated-thumbnials2">
+                    <div class="item" data-src="img/belexpo/animation(1).jpg"><img src="img/belexpo/animation(1).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(2).jpg"><img src="img/belexpo/animation(2).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(3).jpg"><img src="img/belexpo/animation(3).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(4).jpg"><img src="img/belexpo/animation(4).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(5).jpg"><img src="img/belexpo/animation(5).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(6).jpg"><img src="img/belexpo/animation(6).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(7).jpg"><img src="img/belexpo/animation(7).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(8).jpg"><img src="img/belexpo/animation(8).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(9).jpg"><img src="img/belexpo/animation(9).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(10).jpg"><img src="img/belexpo/animation(10).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(11).jpg"><img src="img/belexpo/animation(11).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(12).jpg"><img src="img/belexpo/animation(12).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(13).jpg"><img src="img/belexpo/animation(13).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(14).jpg"><img src="img/belexpo/animation(14).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(15).jpg"><img src="img/belexpo/animation(15).jpg" alt=""></div>
+                    <div class="item" data-src="img/belexpo/animation(16).jpg"><img src="img/belexpo/animation(16).jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    <div class="overlay"></div>-->
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-heading">
+                    <h2 class="title" style="margin-bottom:30px;color:#fff;">Напишите нам :)</h2>
+                    <div class="social">
+                        <a target="_blank" href="https://www.facebook.com/anecka.besan1"><i
+                                class="fab fa-facebook-square"></i></a>
+                        <a target="_blank" href="https://vk.com/id200743002"><i class="fab fa-vk"></i></a>
+                        <a href="viber://chat?number=375293481007"><i class="fab fa-viber"></i></a>
+                        <!--                            <a href="#"><i class="fab fa-youtube"></i></a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="col-lg-8 col-lg-offset-2">
+            <div class="done">
+                <div class="alert alert-success">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    Ваше сообщение отправлено. Спасибо!
+                </div>
+            </div>
+            <form method="post" action="contact.php" id="contactform">
+                <div class="form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" name="name" placeholder="Имя *">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="email" placeholder="E-mail *">
+                        </div>
+                    </div>
+                    <textarea name="comment" rows="7" placeholder="Сообщение *"></textarea>
+                    <input type="submit" id="submit" class="clearfix btn" value="Отправить">
+                </div>
+            </form>
+        </div>-->
+    </div>
+
+    <div class="overlay"></div>
+
+
+</section>
+
+
+<footer>
+    <div class="container">
+        <p>&copy; 2018 Anton Glebov. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<!--<script src="js/jquery.min.js"></script>-->
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<!--<script src="js/jquery.easing.min.js"></script>-->
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="js/validate.js"></script>
+<!--owlcarousel-->
+<script src="js/owl.carousel.min.js"></script>
+
+<!--lightgallery-->
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.9/dist/js/lightgallery.min.js"></script>
+<!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional)-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<!-- lightgallery plugins -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lg-thumbnail/1.1.0/lg-thumbnail.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lg-fullscreen/1.0.1/lg-fullscreen.min.js"></script>
+
+<script src="js/theme.js"></script>
+
+</body>
+
 </html>
