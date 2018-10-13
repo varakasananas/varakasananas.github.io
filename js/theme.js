@@ -42,7 +42,7 @@ jQuery(document).ready(function () {
         loop: true,
         margin: 5,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 9000,
         autoplayHoverPause: true,
         autoHeight: true,
         responsive: {
@@ -81,7 +81,7 @@ jQuery(document).ready(function () {
         lazyLoad: true,
         loop: true,
         autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 9000,
         slideSpeed: 3000,
         smartSpeed: 4000,
         autoplayHoverPause: true,
