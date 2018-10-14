@@ -37,7 +37,7 @@ jQuery(document).ready(function () {
     let owl2 = $('.owl-animation');
     owl.owlCarousel({
         lazyLoad: true,
-        lazyLoadEager: 2,
+        lazyLoadEager: 3,
         loop: true,
         margin: 5,
         autoplay: true,
@@ -78,7 +78,7 @@ jQuery(document).ready(function () {
 
     owl2.owlCarousel({
         lazyLoad: true,
-        lazyLoadEager: 2,
+        lazyLoadEager: 3,
         loop: true,
         autoplay: true,
         autoplayTimeout: 9000,
